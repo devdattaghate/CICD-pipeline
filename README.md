@@ -63,7 +63,7 @@ STEP2: create Flask app & run
 To set CI/CD pipeline in heroku we need 3 information
 
 1.HEROKU_EMAIL = herokudev91@gmail.com
-2.HEROKU_API_KEY = <HRKU-05ae256b-501b-4ecf-8622-01d10539416f>
+2.HEROKU_API_KEY = <>
 3.HEROKU_APP_NAME = goldpriceprediction
 
 STEP3: BUILD DOCKER IMAGE
@@ -92,3 +92,4 @@ To stop docker container
 '''
 docker stop <container id>
 '''
+STEP4: creat .github\workflows\ main.yaml file and write workflow info for deploy to heroku  
