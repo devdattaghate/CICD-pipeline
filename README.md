@@ -1,4 +1,4 @@
-# CICD-pipeline
+# goldpriceprediction-CICD-pipeline
 This my first individual end to end project for complete ML-CICD pipeline
 
 Problem definition:
@@ -93,3 +93,8 @@ To stop docker container
 docker stop <container id>
 '''
 STEP4: creat .github\workflows\ main.yaml file and write workflow info for deploy to heroku  
+
+STEP5: add secrets to git hub\setting\secrets\actions\ add secrets like heroku mail, api_key, app_name
+
+
+
