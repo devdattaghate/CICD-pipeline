@@ -96,5 +96,15 @@ STEP4: creat .github\workflows\ main.yaml file and write workflow info for deplo
 
 STEP5: add secrets to git hub\setting\secrets\actions\ add secrets like heroku mail, api_key, app_name
 
+Troubleshooting while deployment 
+"""
+Heroku app is not set to use a Docker-based deployment. Instead, it is currently on Heroku-24, which is a standard buildpack-based stack. Since you're trying to deploy a Docker container, you need to switch the stack to a container-based environment.
+
+Solution: Switch to a Container Stack
+
+Run the following command:
+
+heroku stack:set container -a <app-name>
+"""
 
 
